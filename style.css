@@ -340,6 +340,8 @@
     border: 8px solid white;
 }
 
+/* sec5 end */
+
 /* sec6 start */
 
 .sec6 {
@@ -451,6 +453,212 @@
     width: 100%;
     height: 370px;
     background-color: #ffc63d;
+}
+
+/* sec6 end */
+
+
+/* sec7 start */
+
+.sec7 {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.sec7firstbox {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.sec7firstbox h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 30px;
+
+}
+
+.sec7firstbox p {
+    font-size: 23px;
+    line-height: 1.3;
+    color: black;
+}
+
+.sec7poolbox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.jacuzzibox {
+    width: 32%;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+    background-color: #ffc63d;
+    flex-direction: column;
+}
+
+.manswimbox {
+    width: 100%;
+    height:300px;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/d20b2eac370b522c8089f729/vbvbvbbb.jpg);
+    background-size: cover;
+}
+
+.Studios {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/051f054b1c1953b0b2566f25/dfdffr.jpg);
+    background-size: cover;
+}
+
+.lounge {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/e3295880f7b85f7aa606cfc1/fgfgg.jpg);
+    background-size: cover;
+}
+
+.sauna {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/de9006e18d7a5ecba6433888/fgfg.jpg);
+    background-size: cover;
+}
+
+.outdoor {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/1f3674f7983552f5806535b0/bnbnbnbnnn.jpg);
+}
+
+.basketball {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/243ab7d628375f9eb3a72c4e/ghh.jpg);
+}
+
+.poolandjacuzzibox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+/* sec7 end */
+
+
+/* sec8 start */
+
+.sec8 {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/erer-min.jpg);
+}
+
+.sec8firstbox {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.sec8firstbox h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.sec8firstbox p {
+    font-size: 23px;
+    line-height: 1.3;
+    color: white;
+}
+
+.sec8secondbox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    gap: 20px;
+}
+
+.sec8kevinbox {
+    width: 33%;
+    height: 100vh;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+.kevinbox1 {
+    width: 100%;
+    height: 450px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/222.jpg);
+    background-size: cover;
+    
+}
+
+.sec8harrybox {
+    width: 33%;
+    height: 100vh;
+    background-color: white;
+    padding: 20px;
+}
+
+.harrybox1 {
+    width: 100%;
+    height: 450px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/58.jpg);
+    background-size: cover; 
+}
+
+.sec8juliabox {
+    width: 33%;
+    height: 100vh;
+    background-color: white;
+    padding: 20px;
+}
+
+.juliabox1 {
+    width: 100%;
+    height: 450px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/64745322-c864-486f-a32f-adc405a416b2.jpg);
+    background-size: cover; 
+}
+
+.kevinbox2 i {
+    line-height: 1.3;
+    font-size: 20px;
+}
+
+/* sec8 end */
+
+
+/* sec9 start */
+
+.sec9 {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
 }
 
 @media screen and (min-width: 320px) and (max-width: 578px) {
@@ -626,7 +834,7 @@
 
     .sec6childbox {
         width: 100% ;
-        height: 80vh;
+        height: auto;
     }
 
     .sec6container {
@@ -731,6 +939,90 @@
         justify-content: space-between;
         padding: opx 20px;
     }
+
+    .sec7 {
+        padding: 40px 16px;
+    }
+
+    .sec7firstbox h1 {
+        font-size: 32px;
+    }
+
+    .sec7firstbox p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .sec7poolbox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.jacuzzibox {
+    width: 100%;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+    background-color: #ffc63d;
+    flex-direction: column;
+}
+
+.manswimbox {
+    width: 100%;
+    height:300px;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/d20b2eac370b522c8089f729/vbvbvbbb.jpg);
+    background-size: cover;
+}
+
+.Studios {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/051f054b1c1953b0b2566f25/dfdffr.jpg);
+    background-size: cover;
+}
+
+.lounge {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/e3295880f7b85f7aa606cfc1/fgfgg.jpg);
+    background-size: cover;
+}
+
+.sauna {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/de9006e18d7a5ecba6433888/fgfg.jpg);
+    background-size: cover;
+}
+
+.outdoor {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/1f3674f7983552f5806535b0/bnbnbnbnnn.jpg);
+}
+
+.basketball {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/243ab7d628375f9eb3a72c4e/ghh.jpg);
+}
+
+.poolandjacuzzibox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
 }
 
 
@@ -968,6 +1260,89 @@
         justify-content: space-between;
         padding: 10px 20px;
     }
+
+    .sec7 {
+        padding: 40px 16px;
+    }
+
+    .sec7firstbox h1 {
+        font-size: 32px;
+    }
+
+    .sec7firstbox p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .sec7poolbox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.jacuzzibox {
+    width: 100%;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+    background-color: #ffc63d;
+    flex-direction: column;
+}
+
+.manswimbox {
+    width: 100%;
+    height:300px;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/d20b2eac370b522c8089f729/vbvbvbbb.jpg);
+    background-size: cover;
+}
+
+.Studios {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/051f054b1c1953b0b2566f25/dfdffr.jpg);
+    background-size: cover;
+}
+
+.lounge {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/e3295880f7b85f7aa606cfc1/fgfgg.jpg);
+    background-size: cover;
+}
+
+.sauna {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/de9006e18d7a5ecba6433888/fgfg.jpg);
+    background-size: cover;
+}
+
+.outdoor {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/1f3674f7983552f5806535b0/bnbnbnbnnn.jpg);
+}
+
+.basketball {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/243ab7d628375f9eb3a72c4e/ghh.jpg);
+}
+
+.poolandjacuzzibox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
 
 }
 
@@ -1327,21 +1702,6 @@
     .sec5innerbox2 p {
         font-size: 10px;
     }
-
-    /* .yogaimg1 {
-       position: absolute;
-       left: 130px;
-       top: 110px;
-       width: 455px;
-    }
-
-    .yogaimg2 {
-       position: absolute;
-       left: 300px;
-       top: 300px;
-       width: 455px;
-       border: 8px solid white;
-    } */
 
     .sec6 {
         height: auto;
