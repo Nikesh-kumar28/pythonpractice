@@ -605,8 +605,7 @@
     width: 33%;
     height: 100vh;
     background-color: white;
-    padding: 20px;
-    
+    padding: 20px; 
 }
 
 .kevinbox1 {
@@ -660,6 +659,80 @@
     height: 100vh;
     background-color: white;
 }
+
+.whybox {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.whybox h1 {
+    font-size: 50px;
+}
+
+.whybox p {
+    font-size: 19px;
+    padding-top: 30px;
+}
+
+.sec9secondbox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    gap: 20px;
+    /* flex-direction: row; */
+}
+
+.sec9trainingbox {
+    width: 33%;
+    height: 100vh;
+    background-color: #ffc63d;
+    padding: 20px;
+    /* flex-direction: row; */
+}
+
+.trainingbox1 {
+    width: 100%;
+    height: 450px;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/a2a7e0679b28577cbdfb6208/billionphotos-1656913.jpg);
+    background-size: 120% 100%;
+}
+
+.gymbox {
+    width: 33%;
+    height: 100vh;
+    background-color: white;
+    padding: 20px;
+}
+
+.gymbox1 {
+    width: 100%;
+    height: 450px;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/0a451d7851355f089bd845d1/billionphotos-1669933.jpg);
+    background-size: 120% 100%;
+}
+
+.coachbox {
+    width: 33%;
+    height: 100vh;
+    background-color: white;
+    padding: 20px;
+}   
+
+.coachbox1 {
+    width: 100%;
+    height: 450px;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/caecdeb0f0d2508f8e29959d/billionphotos-3671911.jpg);
+    background-size: 120% 100%;
+}
+
+
+
 
 @media screen and (min-width: 320px) and (max-width: 578px) {
 
@@ -875,8 +948,8 @@
     .sec6childinnerbox1 {
        width: 100%;
        height: 300px;
-       background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2646264/images/t45.jpg );
-        background-size: cover;
+       background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2646264/images/t45.jpg);
+        background-size: center;
     }
 
     .sec6childinnerbox2 {
@@ -1020,7 +1093,99 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: auto;
+}
+
+    .sec8 {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/erer-min.jpg);
+}
+
+.sec8firstbox {
+    text-align: center;
+    padding: 40px 16px;;
+    max-width: 800px;
+    margin: auto;
+}
+
+.sec8firstbox h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.sec8firstbox p {
+    font-size: 20px;
+    line-height: 1.3;
+    color: white;
+}
+
+.sec8secondbox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.sec8kevinbox {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+.kevinbox1 {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/222.jpg);
+    background-size: cover;
+    
+}
+
+.sec8harrybox {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.harrybox1 {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/58.jpg);
+    background-size: cover; 
+}
+
+.sec8juliabox {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.juliabox1 {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/64745322-c864-486f-a32f-adc405a416b2.jpg);
+    background-size: cover; 
+}
+
+.kevinbox2 i {
+    line-height: 1.3;
+    font-size: 15px;
+}
+
+.kevinbox2 h1 {
+    font-size: 25px;
 }
 
 }
@@ -1341,8 +1506,101 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: auto;
 }
+
+.sec8 {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/erer-min.jpg);
+}
+
+.sec8firstbox {
+    text-align: center;
+    padding: 40px 16px;;
+    max-width: 800px;
+    margin: auto;
+}
+
+.sec8firstbox h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.sec8firstbox p {
+    font-size: 20px;
+    line-height: 1.3;
+    color: white;
+}
+
+.sec8secondbox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.sec8kevinbox {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+.kevinbox1 {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/222.jpg);
+    background-size: cover;
+    
+}
+
+.sec8harrybox {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.harrybox1 {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/58.jpg);
+    background-size: cover; 
+}
+
+.sec8juliabox {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.juliabox1 {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/64745322-c864-486f-a32f-adc405a416b2.jpg);
+    background-size: cover; 
+}
+
+.kevinbox2 i {
+    line-height: 1.3;
+    font-size: 15px;
+}
+
+.kevinbox2 h1 {
+    font-size: 25px;
+}
+
 
 }
 
@@ -1576,6 +1834,99 @@
         justify-content: space-between;
         padding: 10px 20px;
     }
+
+    .sec8 {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/erer-min.jpg);
+}
+
+.sec8firstbox {
+    text-align: center;
+    padding: 40px 16px;;
+    max-width: 800px;
+    margin: auto;
+}
+
+.sec8firstbox h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.sec8firstbox p {
+    font-size: 20px;
+    line-height: 1.3;
+    color: white;
+}
+
+.sec8secondbox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.sec8kevinbox {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+.kevinbox1 {
+    width: 100%;
+    height: 500px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/222.jpg);
+    background-size: cover;
+    
+}
+
+.sec8harrybox {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.harrybox1 {
+    width: 100%;
+    height: 500px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/58.jpg);
+    background-size: cover; 
+}
+
+.sec8juliabox {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.juliabox1 {
+    width: 100%;
+    height: 500px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/64745322-c864-486f-a32f-adc405a416b2.jpg);
+    background-size: cover; 
+}
+
+.kevinbox2 i {
+    line-height: 1.3;
+    font-size: 15px;
+}
+
+.kevinbox2 h1 {
+    font-size: 25px;
+}
+
 
 }
 
@@ -1822,6 +2173,99 @@
         padding: 10px 20px;
     }
 
+    .sec8 {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/erer-min.jpg);
+}
+
+.sec8firstbox {
+    text-align: center;
+    padding: 40px 16px;;
+    max-width: 800px;
+    margin: auto;
+}
+
+.sec8firstbox h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.sec8firstbox p {
+    font-size: 20px;
+    line-height: 1.3;
+    color: white;
+}
+
+.sec8secondbox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.sec8kevinbox {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+.kevinbox1 {
+    width: 100%;
+    height: 800px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/222.jpg);
+    background-size: cover;
+    
+}
+
+.sec8harrybox {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.harrybox1 {
+    width: 100%;
+    height: 800px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/58.jpg);
+    background-size: cover; 
+}
+
+.sec8juliabox {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.juliabox1 {
+    width: 100%;
+    height: 800px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/64745322-c864-486f-a32f-adc405a416b2.jpg);
+    background-size: cover; 
+}
+
+.kevinbox2 i {
+    line-height: 1.3;
+    font-size: 15px;
+}
+
+.kevinbox2 h1 {
+    font-size: 25px;
+}
+
+
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
@@ -1916,6 +2360,104 @@
     .yogaimg2 {
        width: 400px;
     }
+
+    .sec8 {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/erer-min.jpg);
+}
+
+.sec8firstbox {
+    text-align: center;
+    padding: 40px 16px;;
+    max-width: 800px;
+    margin: auto;
+}
+
+.sec8firstbox h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.sec8firstbox p {
+    font-size: 20px;
+    line-height: 1.3;
+    color: white;
+}
+
+.sec8secondbox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    gap: 20px;
+    /* flex-direction: column; */
+}
+
+.sec8kevinbox {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+.kevinbox1 {
+    width: 100%;
+    height: 450px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/222.jpg);
+    background-size: cover;
+    
+}
+
+.sec8harrybox {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.harrybox1 {
+    width: 100%;
+    height: 450px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/58.jpg);
+    background-size: cover; 
+}
+
+.sec8juliabox {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.juliabox1 {
+    width: 100%;
+    height: 450px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/3972615/images/64745322-c864-486f-a32f-adc405a416b2.jpg);
+    background-size: cover; 
+}
+
+.kevinbox2 i {
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.kevinbox2 h1 {
+    font-size: 25px;
+}
+
+.kevinbox2 {
+    height: 200px;
+    width: 100%;
+    padding-top: 35px ;
+}
 
 }
 
