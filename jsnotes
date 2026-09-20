@@ -1,0 +1,17 @@
+// let ye bolta h ki aap ne ek baar let le liya tho fr dubara aap let variable nhi le sakte 
+// ex: let a = 60
+// a = 100 
+// this is right way
+
+// const variable bhi same let ki trh h 
+
+// var me ressaign kar skte h
+// let ko reassign  kar skte h lekin redeclare nhi kar skte mtalb let dubara likh nhi skte
+// const ko reassign or redeclare nhi kar skte h
+
+// identifier
+// kabi bhi var k andr special charater, gap , space, digit,use nhi kar skte bss($, _) use kar sktye h
+
+// reserve keywords use nhi kar sktte
+
+// non-premitive data type vo h jisme data ka group hota h 
