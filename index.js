@@ -268,4 +268,120 @@
 // let name = "vijai"
 // age = 60
 // city = "jaipur"
-// console.log("my name is" + name + "and i am" + age + "years old");
+// console.log('my name is' + name + 'and i am' + age + 'years old');
+// console.log(`my name is ${name} and i am ${age} years old`);
+
+// if
+// if else
+// else if
+// nasted if else
+
+
+// age = 40
+// if (age > 18) {
+//     console.log("you can vote");
+// } 
+
+// if (age > 18){
+//     console.log("you can vote");
+// } else {
+//     console.log("you cant vote");
+// }
+
+// let time = 12
+// let time = 22
+// if (time >= 1 && time < 12) {
+//     console.log("good morning");
+// } else if (time >= 12 && time < 17) {
+//     console.log("good afternoon");
+// } else if (time >= 17 && time < 22) {
+//     console.log("good evening");
+// } else {
+//     console.log("good night");
+// }
+
+// let marks = 22
+// let marks = 33
+// let marks = 45
+// let marks = 60
+// let marks = 95 
+// let marks = 22
+// if (marks > 0 && marks <= 100) {
+
+//    if (marks >= 33  && marks < 45) {
+//       console.log("third division");
+//     } else if (marks >= 45 && marks < 60) {
+//         console.log("second division");
+//     } else if (marks >= 60 && marks < 90) {
+//         console.log("firsit division");
+//     } else if (marks >= 90 && marks <= 100) {
+//         console.log("topper");
+//     } else {
+//        console.log("fail");
+//     }
+
+// }   else{
+//         console.log("invalid number");
+// }
+
+
+// let marks = 45
+// let marks = 32
+// let marks = 33
+// let marks = 60 
+// let marks = 90
+// let marks = 89
+// let marks = 100
+// let marks = 101
+// let marks = -2
+// if (marks >= 0) {
+//     if (marks >= 33) {
+//         if (marks >= 45) {
+//              if (marks >= 60) {
+//              if (marks >= 90) {
+//                  if (marks > 100) {
+//                      console.log("invalid number");
+//                  } else {
+//                      console.log("topper");
+//                  }
+//             } else {
+//                  console.log("first");
+//                 }
+//             } else {
+//              console.log("second");
+//          }
+//         } else {
+//               console.log("third");
+//         }
+//     } else {
+//         console.log("fail");
+//     }
+// } else {
+//     console.log("invalid ");
+// }
+
+// let day = 2
+// let day = 6
+// let day = 8
+// let day = 4
+// let day = 21
+// switch (day) {
+//     case 0: console.log("sunday");
+//         break;
+//     case 1: console.log("monday");
+//         break;
+//     case 2: console.log("tuesday");
+//         break;
+//     case 3: console.log("wednesday");
+//         break;
+
+//     case 4: console.log("thursday");
+//         break;
+//     case 5: console.log("friday"); 
+//         break;
+//     case 6: console.log("saturday");
+//         break;
+//     default: console.log("invalid day");
+//         break;
+// }
+
