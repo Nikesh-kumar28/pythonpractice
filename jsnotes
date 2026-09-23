@@ -15,3 +15,16 @@
 // reserve keywords use nhi kar sktte
 
 // non-premitive data type vo h jisme data ka group hota h 
+
+// function ko bina naam k likhna usko annonymous function hota h
+// bina naam k function ko kisi variable k andr rakh de annonymous function hota h
+
+// operator 
+
+// agr ham a++ lgaye ge tab value ek step baad bhade gi like a = 30 console.log(a++) = value 30
+// agr ++a lgaye ge truant value bhad jaaye gi like a = 30 console.log(++a) = value 31  
+
+// pre ka mtlb phlre ++a
+// post ka mtlb baad me --a
+
+
