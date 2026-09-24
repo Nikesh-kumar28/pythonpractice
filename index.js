@@ -385,3 +385,75 @@
 //         break;
 // }
 
+// loop
+// console.log("catalyst progrsmers");
+// let i = 1
+// while (i <= 10 ) {
+//     console.log("sorry" + i);
+//     i = i + 1
+// }
+// let i = 1
+// do {
+//     console.log("sorry");
+//     i++
+
+// } while (i >= 10);
+
+// for (let i = 1; i <=10; i++) {
+//     console.log("sorry", i);
+// }
+
+// let arr = ["aman", "chaman", "nikku", "werf", "nikesh"]
+// console.log(arr.length);
+// for (let i = 0; i <= 5; i++) {
+//     console.log(arr[i]);
+// }
+
+// let arr = ["aman", "chaman", "nikku", "werf", "nikesh"]
+// console.log(arr.length);
+// for (let i = 0; i <= 5; i++) {
+//     console.log(arr);
+// }
+
+// let arr = ["aman", "chaman", "nikku", "werf", "nikesh"]
+// for (const ind in arr) {
+//     console.log(arr);   
+// }
+
+// let arr = ["aman", "chaman", "nikku", "werf", "nikesh"]
+// for (const element of arr) {
+//     console.log(element); 
+// }
+
+// let obj = {
+//     name: "jai",
+//     city: "jaipur",
+//     age: 23
+// }
+// console.log(obj.name);
+// for (const key in obj) {
+//     console.log(`${key}: ${obj [key]}`);
+// }
+
+// let arr = ["aman", "chaman", "nikku", "werf", "nikesh"]
+
+// arr.forEach((ele, ind, ar) => {
+//     console.log(ar);
+// })
+    
+// let arr = ["aman", "chaman", "nikku", "werf", "nikesh"]
+// console.log(
+//     arr.forEach((ele, ind, ar) => {
+//         return ele
+//     }));
+
+// let arr = ["aman", "chaman", "nikku", "werf", "nikesh"]
+
+// data = arr.map((ele, ind, ar) => {
+    // return ele
+    // return ind
+//     return ar
+// })
+
+// console.log(data);
+
