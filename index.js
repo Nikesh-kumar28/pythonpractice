@@ -457,3 +457,82 @@
 
 // console.log(data);
 
+// let data = [3, 5, 6, 2, 3, 4, 9, 21]
+
+// output = data.map((ele) => {
+
+//     return ele
+// })
+// console.log(output);
+
+// let data = [3, 5, 6, 2, 3, 4, 9, 21]
+
+// output = data.map((ele) => {
+//     return ele > 5
+// }).filter((a) => a > 5)
+// console.log(output);
+
+// output = data.reduce((p, c, ci, ar) => {
+    // return p
+    // return c
+    // return ar
+//     return p + c
+// })
+// console.log(output);
+
+// let data = [3, 5, 6, 2, 3, 4, 9, 21]
+// let data = [3, 5, 6, 8, 2, 3, 4, 9, 2, 2]
+// console.log(data.find((ele) => ele > 6));
+// console.log(data.findIndex((ele) => ele > 6));
+// console.log(data.findLastIndex((ele) => ele > 6));
+
+// let data = ["jai", "vijay","sachinnn", "jitin", "nikesh"]
+
+// console.log(data.indexOf("ajay"));
+// let out = data.indexOf("sachin")
+// console.log(out);
+// if (out != -1) {
+//     console.log(out);
+// } else {
+//    console.log("not found")
+// }
+
+// let data = ["jai", "vijay","sachinnn", "jitin", "nikesh"]
+// console.log(data.includes("vijay"));
+
+// let arr = ["jai", "vijay","sachinnn", "jitin", "nikesh"]   
+// let data = arr.push("aman")
+// console.log(data);
+// console.log(arr);
+// let data = arr.pop("aman")
+// console.log(arr);
+
+
+// let arr = ["jai", "vijay","sachin", "jitin", "nikesh"]
+// console.log(arr);
+// let data = arr.shift()
+// console.log(arr);
+
+// let data = arr.unshift("nikku")
+// console.log(arr);
+// console.log(data);
+
+// let arr = ["jai", "vijay","sachin", "jitin", "nikesh"]
+// let data = arr.join("*")
+// console.log(data);
+
+// let arr = ["jai", "vijay","sachin", "jitin", "nikesh"]
+// let arr = "lskejfjdefmcf kejcfcndcf ejkcfrdfn"
+// console.log(arr.split("."))
+// let arr = ["jai", "vijay","sachin", "jitin", "nikesh"]
+// data = arr.splice(1, 2, "nilesh");
+// data = arr.splice(1, Infinity);
+
+// console.log(arr);
+
+// let month = ["Jan", "Feb", "mar", "Apr", "May", "June"]
+// data = month.splice(2, 0, "March")
+// data = month.splice(2, 1, "March")
+// data = month.splice(2, 1)
+// console.log(month);
+
