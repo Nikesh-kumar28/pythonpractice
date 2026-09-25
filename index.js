@@ -573,12 +573,93 @@
 // let data = month.sort()
 // console.log(data);
 
-let data = [
-    {name : "jai", salary: 2345},
-    {name : "ajay", salary: 897},
-    {name : "aman", salary: 9675787},
-    {name : "raman", salary: 975687},
-    {name : "sachin", salary: 9908387},
-    {name : "mohit", salary: 123}
-]
-console.log(data.sort((a, b) => a.salary - b.salary));
+// let data = [
+//     {name : "jai", salary: 2345},
+//     {name : "ajay", salary: 897},
+//     {name : "aman", salary: 9675787},
+//     {name : "raman", salary: 975687},
+//     {name : "sachin", salary: 9908387},
+//     {name : "mohit", salary: 123}
+// ]
+// console.log(data.sort((a, b) => a.salary - b.salary));
+// console.log(data.sort((a, b) => b.salary - a.salary));
+
+// console.log(data.sort((a, b) => {
+//     if (a.name > b.name) {
+//         return 1
+//     } else if (a.name < b.name) {
+//         return -1
+//     }else {
+//         return 0
+//     }
+// }));
+
+// console.log(data.sort((a, b) => {
+//     if (a.name < b.name) {
+//         return 1
+//     } else if (a.name > b.name) {
+//         return -1
+//     }else {
+//         return 0
+//     }
+// }));
+
+
+// let obj = {village : "kaveri", dist : "alwar"}
+// let obj2 = {name : "vijay", salary : 22345, age : 24, city : "ajmer"}
+// console.log(Object.keys(obj));
+// console.log(Object.values(obj));
+// console.log(Object.entries(obj));
+// let data = Object.entries(obj)
+// console.log(Object.fromEntries(data));
+// console.log(Object.assign(obj, obj2));
+// console.log({...obj, obj2});
+
+// let string = "my nAme is nikku"
+// console.log(string.toUpperCase());
+// console.log(string.toLowerCase());
+// console.log(string.charAt(3));
+// console.log(string.charCodeAt(4));
+// console.log(string.includes("is"));
+// console.log(string.startsWith("my"));
+// console.log(string.endsWith("kku"));
+// console.log(string.indexOf(" "));
+// console.log(string.slice(0, 4));
+// console.log(string.slice(5, 8));
+// console.log(string.slice(5, -1));
+// console.log(string.substring(5, -1));
+// console.log(string.substr(5, 8));
+
+// let string = "  my nAme is my nikku  "
+// console.log(string.replace("my", "I"));
+// console.log(string.replaceAll("my", "I")); 
+// console.log(string.trim(" "));
+// console.log(string.trimStart(" "));
+// console.log(string.trimEnd(" "));
+
+// let string = "my * nAme * isss * my * nikku"
+// let string = "7"
+// console.log(string.split(" * "));
+// console.log(string.repeat("3"));
+// console.log(string.padStart(7, "0"));
+// console.log(string.padEnd(5, "0"));
+
+// let string = Math.random()
+// let string = "7"
+// console.log(string);
+// console.log(Math.round(4.08));
+// console.log(Math.floor(4.9));
+// console.log(Math.ceil(4.08));
+// console.log(Math.trunc(4.1));
+// console.log(Math.abs(-4089));
+// console.log(Math.max(10, 20, 5));
+// console.log(Math.min(10, 20, 5));
+// console.log(Math.pow(2, 3));
+// console.log(Math.sqrt(25));
+// console.log(Math.cbrt(27));
+// console.log(Math.sign(-5));
+// console.log(Math.PI);
+
+// let string = String(Math.trunc(Math.random() * 1000))
+// console.log(string);
+// console.log(string.padEnd(5, "0"));
