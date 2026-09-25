@@ -47,7 +47,7 @@
 # mixed_set = {1, "hello", (1, 2), 3.14, (1, 2)} # Tuple is hashable
 # print(f"Mixed set: {mixed_set}")
 
-my_set = {1, 2, 3}
+# my_set = {1, 2, 3}
 # print(f"Original set: {my_set}")
 
 # Add and Update method works separately in a way that add can only insert immutable data types
