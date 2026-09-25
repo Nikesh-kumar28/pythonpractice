@@ -536,3 +536,49 @@
 // data = month.splice(2, 1)
 // console.log(month);
 
+// let month = ["Jan", "Feb", "mar", "Apr", "May", "June"]
+// console.log(month.slice(1, 3));
+// console.log(month.slice(1, 5));
+
+// let month = ["Jan", "Feb", "mar", "Apr", "May", "June"]
+// let day = ["sun", "mon", "tue", "wed", "thur", "fri"]
+// let xyz =   ["sun", "mon", "tue", "wed", "thur", "fri"]
+// let data = month.concat(day, xyz)
+// console.log(data);
+
+// arr = [["Jan", "Feb", "mar", ["sun", "mon", "tue", ["sun", "mon", "tue", "wed", "thur", "fri"], "wed", "thur", "fri"], "Apr", "May", "June"]]
+// let data = arr.flat(3)
+// let data = arr.flat(1)
+// console.log(data);
+
+// let month = [2, 4, 2, 5, 7, 3]
+// console.log(month.some((ele) => ele > 4));
+// console.log(month.some((ele) => ele > 5));
+// console.log(month.every((ele) => ele > 4));
+// console.log(month.every((ele) => ele > 1));
+// console.log(month.reverse());
+// console.log(month.join(" &"))
+
+
+// let month = [2, 4, 2, 5, 7, 3, 23]
+// let data = month.sort()
+// console.log(data);  
+
+// let month = [2, 4, 2, 5, 7, 3, 23]
+// let data = month.sort((a, b) => b - a)
+// console.log(data);
+
+
+// let month = ["aman", "raman", "chaman", "sachin", "vijay", "ajay"]
+// let data = month.sort()
+// console.log(data);
+
+let data = [
+    {name : "jai", salary: 2345},
+    {name : "ajay", salary: 897},
+    {name : "aman", salary: 9675787},
+    {name : "raman", salary: 975687},
+    {name : "sachin", salary: 9908387},
+    {name : "mohit", salary: 123}
+]
+console.log(data.sort((a, b) => a.salary - b.salary));
