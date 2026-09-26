@@ -140,3 +140,70 @@
 # del grades["science"]
 # print(grades)
 
+# pop an item 
+
+# grades = {"math": 90, "science": 85}
+# popped_value = grades.pop("math")
+# print(grades)
+
+# missing_value = grades.pop("english", "not found")
+# missing_value = grades.pop("science", "not found")
+# missing_value = grades.pop("abc", "false")
+# print(missing_value)
+
+# grades = {"math": 90, "science": 85}
+# popped_item_pair = grades.popitem()
+# print(grades.popitem())
+
+# grades.clear()
+# print(grades)
+
+# a = [1, 2, 3, 4, 5, 6, 6]
+# i = 0
+# length = len(a)
+# while i < length:
+#     print(i, a.pop())
+#     i += 1
+# print(a)
+
+# basic dict operation
+# profile = {
+#     "name": "vikash",
+#     "age": 34,
+#     "gender": "male"
+# }
+# print(len(profile))
+
+# a = {
+#     "name": "mohit",
+#     "age": 45,
+#     "city": "gurugram",
+#     "data1": {
+#         "level": "advance",
+#         "data2": [1, 2, 3, 4, 5, { "data3":"dummy_value"}]
+#     }
+# }
+# print(len(a))
+
+# membership oper.
+
+# profile = {
+#     "name": "vikash",
+#     "age": 25,
+#     "gender": "male"
+# }
+# print(25 in profile)
+# print("age" in profile)
+
+# d1 = {"a": 1, "b": 2}
+# d2 = {"b": 3, "c": 4}
+# # d1.update(d2)
+# d2.update(d1)
+# # print(d1)
+# print(d2)
+
+# data = {"name": "nikk", "age": 25}
+# print(data["age"])
+# print(data.get("mob."))
+# print(data.get("mob.", "not found"))
+
