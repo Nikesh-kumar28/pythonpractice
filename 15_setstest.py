@@ -218,3 +218,94 @@
 # | **Indexing possible**    | ✅ Yes              | ✅ Yes            | ❌ No           | ❌ No         | ✅ Yes         |
 # | **Elements type**        | Any                 | Any               | Only hashable   | Only hashable | Characters     |
 # | **Use case**             | Dynamic collections | Fixed collections | Unique elements | Immutable set | Text data      |
+
+
+
+
+# sets question practice without loops
+
+# How do you find the total number of unique elements inside a set?
+
+# my_set = {10, 20, 30, 40, 50}
+
+# print(len(my_set))
+
+# Given two sets, how do you find elements common to both?
+# set1 = {1, 2, 3, 4}
+# set2 = {3, 4, 5, 6}
+
+# print(set1.intersection(set2))
+
+# How do you add a single element and multiple elements at once?
+# numbers = {1, 2, 3}
+# numbers.add(4)
+# print(numbers)
+
+# numbers = {1, 2, 3}
+# numbers.update([4, 5, 6])
+# print(numbers)
+
+# Given two sets, how do you get all unique elements from both combined?
+# set1 = {1, 2, 3}
+# set2 = {3, 4, 5}
+# print(set1.union(set2))
+
+# How do you remove an element without raising an error if it doesn't exist?
+# numbers = {1, 2, 3, 4}
+# numbers.discard(5)
+# print(numbers)
+
+# How do you check if one set is a completely contained subset of another?
+# set1 = {1, 2}
+# set2 = {1, 2, 3, 4}
+
+# print(set1.issubset(set2))
+
+# How do you remove all elements to make a set empty?
+# numbers = {1, 2, 3, 4, 5}
+# numbers.clear()
+# print(numbers)
+
+
+# sets question with loops
+
+# Write a program to iterate through a set and print each element multiplied by 10.
+# numbers = {1, 2, 3, 4, 5}
+
+# for num in numbers:
+#     print(num * 10)
+
+# Write a program to find the sum of all numbers in a set using a for loop.
+# numbers = {10, 20, 30, 40, 50}
+# total = 0
+# for num in numbers:
+#     total = total + num
+
+# print("Sum =", total)
+
+# Given a set of strings, use a loop to count how many elements have length greater than 4.
+# words = {"apple", "cat", "banana", "dog", "python"}
+# count = 0
+# for word in words:
+#     if len(word) > 4:
+#         count = count + 1
+# print("Count =", count)
+
+# Write a program to filter out all odd numbers into a new set using a loop.
+# numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+# odd_numbers = set()
+# for num in numbers:
+#     if num % 2 != 0:
+#         odd_numbers.add(num)
+# print("Odd numbers:", odd_numbers)
+
+# Given a list of sets, combine (union) all of them into a single set using a loop.
+# sets = [
+#     {1, 2, 3},
+#     {3, 4, 5},
+#     {5, 6, 7}
+# ]
+# result = set()
+# for s in sets:
+#     result = result.union(s)
+# print(result)
