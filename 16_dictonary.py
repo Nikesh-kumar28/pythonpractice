@@ -74,3 +74,69 @@
 # print(a["data1"] ["data2"] [-1] [ "data3"])
 # print(a["data1"] ["data2"] [-1] ["data3"] [-1])
 
+# atm_network = {
+#     "network_name": "GlobalCash ATM Network",
+#     "status": "OPERATIONAL",
+#     "terminal_id": "ATM_NY_4021",
+#     "location": {
+#         "branch": "Downtown Central",
+#         "address": {
+#             "street": "100 Financial Way",
+#             "city": "New York",
+#             "coordinates": {"lat": 40.7128, "lng": -74.0060}
+#         }
+#     },
+#     "hardware_status": {
+#         "card_reader": "FUNCTIONAL",
+#         "receipt_printer": {
+#             "paper_level": "LOW",
+#             "ink_level": "OK"
+#         },
+#         "cash_cassettes": [
+#             {"denomination": 10, "count": 150, "currency": "USD"},
+#             {"denomination": 20, "count": 420, "currency": "USD"},
+#             {"denomination": 50, "count": 80,  "currency": "USD"},
+#             {"denomination": 100, "count": 210, "currency": "USD"}
+#         ]
+#     },
+#     "current_session": {
+#         "session_id": "SESS_982341",
+#         "card_inserted": True,
+#         "account_holder": {
+#             "name": "Alex Mercer",
+#             "customer_id": "CUST_99120",
+#             "accounts": [
+#                 {
+#                      "account_type": "CHECKING",
+#                      "account_number": "****5678",
+#                      "balance": 3450.75,
+#                      "daily_withdrawal_limit": 500.00
+#                  },
+#             ]
+#         },
+        
+#     }
+# }
+# print(atm_network)
+# print(atm_network["current_session"] ["account_holder"] ["name"])
+# print(atm_network["current_session"] ["account_holder"] ["accounts"])
+# print(atm_network["current_session"] ["account_holder"] ["accounts"] ["account_type"])
+
+# adding and updating the data
+# a = {"name": "berlin", "age": 34, "city": "newyork", "roll_number": 345}
+# a["name"] = "rohit"
+# a["mob"] = "098765"
+# print(a)
+
+# modifying dict
+# grades = {"math": 90, "science": 85}
+# print(grades["history"])
+# grades["history"] = 78
+# grades["math"] = 40
+# print(grades)
+
+# delete a key-value pair using del
+# grades = {"math": 90, "science": 85}
+# del grades["science"]
+# print(grades)
+
