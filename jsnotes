@@ -27,9 +27,16 @@
 // pre ka mtlb phlre ++a
 // post ka mtlb baad me --a
 
-undifined foreach deta h or for each me (E) capital likhna complosry
-map method a new arr deta h or ye chainable hota h mtlb aage koi bhi methoda lga skte h
+// undifined foreach deta h or for each me (E) capital likhna complosry
+// map method a new arr deta h or ye chainable hota h mtlb aage koi bhi methoda lga skte h
 
-flat arr value k hisab se flat krta h
+// flat arr value k hisab se flat krta h
 
-concat method add krta h
+// concat method add krta h
+
+// getelement id only id leta h 
+// queryselectorall ye sabi selector me kaam krti h id, h1, selector, class sabi me
+// queryselector bss single ko use kre gap or vo arr dega uss arr me loop chla k
+
+
+
