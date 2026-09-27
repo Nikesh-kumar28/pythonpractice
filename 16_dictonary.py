@@ -207,3 +207,62 @@
 # print(data.get("mob."))
 # print(data.get("mob.", "not found"))
 
+# data = { "name": "nikku", "age": 23,}
+# data["city"] = "jaipur"
+# print(data)
+
+# data = { "name": "nikku", "age": 23}
+# email = data.setdefault("email", "nixxx@gmail.com")
+# print(data)
+
+# a = {"rohit", "vikash", "arvind", "vipin"}
+# new_dict = dict.fromkeys("jaipur", "raj")
+# print(new_dict)
+
+# company = {
+#     "ceo": {
+#         "name": "john doe",
+#         "department": "executive"
+#     },
+#     "employes": {
+#         "101": {
+#             "name": "pritam",
+#             "role": "engineer"
+#         },
+#         "102": {
+#             "name": "priya",
+#             "role": "designer"
+#         }
+#     },
+#     "depertments": ["hr", "engineer", "design"]
+# }
+# print(company.get("employes").get("101").get("name", 20))
+# print(company.get("employes").get("101").get("age", 20))
+# print(company.get("depertments") [-1])
+# print(company.get("employes").get("1023", "hello").upper())
+# print(company.get("employes").get("102", "hello").upper())
+
+# person = { "name": "nikku", "age": 22, "city": "rewari"}
+# print(person.keys())
+# print(person.values())
+# print(person.items())
+
+# person = { "name": "nikku", "age": 22, "city": "rewari"}
+# for x in person:
+#     print(x)
+
+# for x in person.keys():
+#     print(x)
+
+# for x in person.values():
+#     print(x)
+
+# for x in person.items():
+#     print(x)
+#     print(x[0])
+
+
+# person = { "name": "nikku", "age": 22, "city": "rewari"}
+# for x , y in person.keys():
+#     print(x, y)
+
