@@ -266,3 +266,251 @@
 # for x , y in person.keys():
 #     print(x, y)
 
+# a = {"name", "age", "city", "mob", "vipin", "jaipur", "india"}
+# a = {23, 24, 6, 75, 75, 67, 34, 243, 56, 234, 76, 45, 457, 90}
+
+# With Loops
+# Iterate through a dictionary and print all its keys.
+# a = {"name", "age", "city", "mob", "vipin", "jaipur", "india"}
+# b = {23, 24, 6, 75, 75, 67, 34, 243, 56, 234, 76, 45, 457, 90}
+# print({ x:y for x,y in zip(a,b)})
+
+# data = {
+#     'mob': 34,
+#     'age': 67,
+#     'india': 90,
+#     'vipin': 6,
+#     'jaipur': 457,
+#     'city': 234,
+#     'name': 75
+# }
+# for x in data.keys():
+# for x in data:
+    # print(x)
+
+# a = list( data.keys() )
+# i = 0
+# while i < len(a):
+#     print(a[i])
+#     i += 1
+
+# Iterate through a dictionary and print all its values.
+# data = {
+#     'mob': 34,
+#     'age': 67,
+#     'india': 90,
+#     'vipin': 6,
+#     'jaipur': 457,
+#     'city': 234,
+#     'name': 75
+# }
+# for x in data.values():
+    # print(x)
+
+# a = list( data.values() )
+# i = 0
+# while i < len(a):
+#     print(a[i])
+#     i += 1
+
+# Print both keys and values side-by-side using a loop.
+# data = {
+#     'mob': 34,
+#     'age': 67,
+#     'india': 90,
+#     'vipin': 6,
+#     'jaipur': 457,
+#     'city': 234,
+#     'name': 75
+# }
+# for x in data:
+#     print(x, data[x])
+#     (data[x])
+
+# Given items and prices, calculate total cost of all items using a loop.
+# grocery_prices = {
+#     "apple": 10,
+#     "banana": 20,
+#     "milk": 30,
+#     "bread": 40,
+#     "eggs": 50,
+#     "rice": 60
+# }
+#  price = list(grocery_prices.values())
+# print(price)
+
+# sum = 0
+# for x in price:
+#     sum += x
+#     print(sum)
+
+# sum = 0
+# for x in grocery_prices:
+#     print(sum, grocery_prices[x])
+#     sum = sum + grocery_prices[x]
+
+# Create a dictionary where keys are 1–5 and values are squares using a while loop.
+# {
+#     1: 1,
+#     2: 4,
+#     3: 9,
+#     4: 16,
+#     5: 25
+# }
+# data = {}
+# i = 1
+# while i <= 5:
+#     data[i] = i * i
+#     i += 1 
+# print(data)
+
+# data = {}
+# i = 1
+# while i <= 5:
+#     data.setdefault(i, i ** 2)
+#     i += 1
+# print(data)
+
+# data = {}
+# for x in range(1, 6):
+#     data[x] = x * x
+#     print(data)
+
+# Filter out items where the value is an even number into a new dictionary.
+# orignal_dict = {
+#     "apple": 1,
+#     "banana": 2,
+#     "cheery": 3,
+#     "date": 4,
+#     "elderberry": 5
+# }
+# for x in orignal_dict:
+#     if orignal_dict[x] % 2 == 0:
+#         print(x)
+
+# Find the key with the highest value using a loop.
+# prices = {
+#     "mouse": 25,
+#     "laptop": 1200,
+#     "monitor": 300,
+#     "keyboard": 75,
+#     "headset": 100
+# }
+# a = [25, 1200, 300, 75, 100]
+# largest = a[0]
+# for x in a:
+#     if x > largest:
+#         largest = x
+# print( largest)        
+
+# largest_value = 25
+# largest_value_key = "mouse"
+
+# for x, y in prices.items():
+#     if y > largest_value:
+#         largest_value = y
+#         largest_value_key = x
+# print(largest_value, largest_value_key)
+
+
+# Swap keys and values using a loop.
+# prices = {
+#     "mouse": 25,
+#     "laptop": 1200,
+#     "monitor": 300,
+#     "keyboard": 75,
+#     "headset": 100
+# }
+# data = {}
+
+# for x, y in prices.items():
+#     data[y] = x
+#     print(data)
+
+
+# Merge two dictionaries manually using a loop.
+# qna_batch_1 = {
+#     "question1": "what is python?",
+#     "question2": "what is an ide?"
+# }
+
+# qna_batch_2 = {
+#     "question2": "an integrated development environment",
+#     "question3": "what is a loop"
+# }
+# qna_batch_1.update(qna_batch_2)
+# print(qna_batch_1)
+
+# for x , y in qna_batch_2.items():
+#     qna_batch_1[x] = y
+#     print(qna_batch_1)
+
+
+# Without Loops
+
+# How do you access a value safely without causing a KeyError?
+# student = {"name": "Nikesh", "age": 20}
+# print(student.get("marks"))
+
+# How do you find the total number of key-value pairs?
+# student = {
+#     "name": "Nikesh",
+#     "age": 20,
+#     "course": "Python"
+# }
+# print(len(student))
+
+# How do you add or update a key-value pair?
+# student = {"name": "Nikesh", "age": 20}
+# student["city"] = "Jaipur"   
+# student["age"] = 21          
+# print(student)
+
+# How do you remove a key and return its value at the same time?
+# student = {
+#     "name": "Nikesh",
+#     "age": 20,
+#     "city": "Jaipur"
+# }
+# age = student.pop("age")
+# print(age)
+# print(student)
+
+# How do you check if a key exists without loops?
+# student = {"name": "Nikesh", "age": 20}
+# print("name" in student)
+
+# How do you clear all items from a dictionary?
+# student = {"name": "Nikesh", "age": 20}
+# student.clear()
+# print(student)
+
+# Given two dictionaries, how do you merge them in a single line?
+# dict1 = {"name": "Nikesh"}
+# dict2 = {"age": 20}
+# result = dict1 | dict2
+# print(result)
+
+# How do you extract all keys into a list without a loop?
+# student = {
+#     "name": "Nikesh",
+#     "age": 20,
+#     "city": "Jaipur"
+# }
+# keys = list(student.keys())
+# print(keys)
+
+# Given a list of keys, how do you create a dictionary with default value 0 in one step?
+# keys = ["name", "age", "city"]
+# student = dict.fromkeys(keys, 0)
+# print(student)
+
+# How do you create a shallow copy of a dictionary?
+# student = {
+#     "name": "Nikesh",
+#     "age": 20
+# }
+# new_student = student.copy()
+# print(new_student)
+
+    
