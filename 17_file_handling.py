@@ -106,3 +106,47 @@
 # a = open("C:/Users/ny006/Videos/honey.mp4", "wb")
 # a.close()
 
+# +r
+# +w
+# +a
+# +rb
+# +wb
+# +ab
+
+# +r advantage is vo new file bna deta h agr koi file na ho tab
+# +a advantage is vo new file nhi bnata agr koi file na ho 
+# +a file nhi h new bna dega or file h content delete nhi kre ga read bhi kre ga write bhi kre ga
+
+# with open("abcd.text", "+r") as a:
+#     print(a.readable())
+#     print(a.writable())
+
+# open file in read mode. read content; count vowels like a string problem. close/ use with open
+
+# vowels = 0
+# with open("abcd.text") as a:
+#     data = a.read()
+#     for x in data:
+#         if x in "aeiouAEIOU":
+#             vowels += 1
+# print(vowels)
+
+# count the total number of words in a file.
+
+# space = 0
+# with open("abcd.text") as a:
+#     data = a.read()
+#     for x in data:
+#         if x in " " or x == "\n":
+#             space += 1
+# print(space + 1)
+
+# words = 0
+# with open("abcd.text") as a:
+#     data = a.readlines()
+#     for x in data:
+#         words += len(x.split())
+#         print(words)
+
+# count the total number of lines present in a text file.
+
