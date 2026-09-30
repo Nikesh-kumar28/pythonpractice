@@ -66,3 +66,43 @@
 # print(data.count("if"))
 # print(data.count("elif"))
 
+# a = open("13_lists.py")
+# print(a.read())
+# a.close()
+
+# with open("test.txt") as a:
+#     print(a.readable())
+#     print(a.read())
+
+# with open("test.txt") as a:
+#     data = a.read()
+#     print(data.count("India"))
+
+# a = open("test.txt", "r")
+# print(a.read())
+# a.close()
+
+# with open("test.txt", "r") as a:
+#     print(a.read())
+
+# a = open("abcd.text", "w")
+# print(a.readable())
+# print(a.writable())
+
+# with open("abcd.text", "w") as a:
+#     a.write( "hello" )
+
+# with open("abcd.text", "w") as a:
+#     a.write( "I am from delhi.\nhello delhi" )
+
+# data = [ "line1\n", "line2\n", "line3\n", "line4", "ASDfae" ]
+# a = open("abcd.text", "w")
+# a.writelines(data)
+# a.close()
+
+# with open("abcd.text", "a") as a:
+#     a.write( "I am from delhi.hello delhi.\n" )
+
+# a = open("C:/Users/ny006/Videos/honey.mp4", "wb")
+# a.close()
+
