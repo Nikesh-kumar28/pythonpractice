@@ -1,0 +1,26 @@
+.main_card {
+    width: 200px;
+    box-shadow: 10px 10px 15px rgb(213, 213, 213);
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#user_profile {
+    width: 30%;
+    box-shadow: 5px 5px 5px gray;
+    padding: 5px ;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+#user_name {
+    color: black;
+    font-size: 22px;
+}
