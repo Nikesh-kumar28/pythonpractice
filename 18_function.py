@@ -250,3 +250,158 @@
 # display_info( name="Vipin", age=34, city="Jaipur", "XYZ", "9855884345" )
 # display_info( name="vipin", 34, "Jaipur", "tets", 42424 )
 
+# Write a function that takes a list and an element as
+# input and prints "Found" if the element exists in the list, otherwise prints "Not Found".
+
+# a = [1, 2, 3, 5, 3, 2, 23, 23, 23, 54, 65, 86]
+
+# what_to_find = 23
+
+# for x in a:
+#     if x == what_to_find:
+#         print("found")
+#     else:
+#         print("not found")
+
+# def value_checker(a, b):
+#     temp = False
+
+#     for x in a:
+#         if x == b:
+#             temp = True
+#             break
+#     if temp:
+#        print("found")
+#     else:
+#        print("not found")
+
+# value_checker( [1, 2, 3, 5, 3, 2, 23, 23, 23, 54, 65, 86],  233)
+
+# Write a function that takes
+# a list of integers and prints how many even numbers are present in the list.
+
+# def value_checker(a):
+
+#     temp = 0
+#     for x in a:
+#         if x % 2 == 0:
+#             temp += 1
+#     print(temp)
+# value_checker( [1, 2, 3, 5, 3, 2, 23, 23, 23, 54, 65, 86])
+
+# Write a function that takes a list of integers and returns the count of even numbers present
+# in the list.
+
+# def value_checker(a):
+
+#     temp = 0
+#     for x in a:
+#         if x % 2 != 0:
+#             temp += 1
+#     print(temp)
+# value_checker( [1, 2, 3, 5, 3, 2, 23, 23, 23, 54, 65, 86])
+
+# Write a function that takes a list of integers and prints the average of all the numbers.
+
+# def value_checker(a):
+#     sum = 0
+#     for x in a:
+#          sum = sum + x
+
+#     print(sum/len(a))
+# value_checker([60, 90, 30, 50, 80])
+
+# write a function that takes a list of integers and prints the count of positive numbers and
+# negative numbers separately.
+
+# def value_checker(a):
+#     pos = 0
+#     neg = 0
+#     for x in a:
+#         if x > 0:
+#             pos += 1
+#         else:
+#             neg += 1
+#     print(pos, neg)
+# value_checker([60, 90, 30, 50, 80, -23, -34, -23, -35, -23, -35])
+
+# def count_numbers(numbers):
+#     positive = 0
+#     negative = 0
+
+#     for num in numbers:
+#         if num > 0:
+#             positive += 1
+#         elif num < 0:
+#             negative += 1
+
+#     print("Positive numbers:", positive)
+#     print("Negative numbers:", negative)
+
+
+# numbers = [10, -5, 20, -8, 0, 15, -3]
+# count_numbers(numbers)
+
+# Write a function that takes a list of integers and prints the factorial of each element.
+
+# data = [5, 10, 15, 5, 23]
+
+# def fact(n):
+#     mul = 1
+#     for x in range(1, n + 1):
+#         mul = mul * x
+#     print(mul)
+
+# for x in data:
+#     fact(x)
+
+# def greet(name):
+#     print(f"Hello {name}, How Are You?")
+
+# greet("nikku")
+
+
+# Example:
+# def greet_with_default( name, message="Hello"):
+#     print(f"{name}, {message}!")
+
+# greet_with_default("Eve", "Good Afternoon")
+# greet_with_default("Eve")
+# greet_with_default("Frank", "Good morning")
+# greet_with_default(message="Good Evening", name="Mumbai")
+
+# def display_info(name, age, course, city="Jaipur", collage="ABC", collage_nu=66543):
+#     print(f"Name: {name}, Age: {age}, City: {city}, Collage: {collage}, {collage_nu}, Course: {course}")
+
+# display_info("vipin", age=23, course="BCA")
+
+# Variable-Length Arguments (*args and **kwargs)
+# Sometimes you don't know how many arguments a function will receive. Python handles this with special syntax.
+# *args (Non-Keyword Arguments)
+# The *args syntax allows a function to accept a variable number of non-keyword arguments. These arguments are bundled into a tuple inside the function.
+
+# example
+
+# def calculate_average(*numbers):
+#     print(f"the average is: {numbers}")
+
+# calculate_average()
+# calculate_average(10, 20)
+# calculate_average(10, 20, 30)
+# calculate_average(10, 20, 30, 4550, 345, 'wefgh', 'sdfg', 234, 'wert')
+
+# def mix_func(*a, b, c, d):
+#     print(a)
+#     print(b)
+#     print(c)
+#     print(d)
+# mix_func(23, 10, 20, 30, 45, 567, 567)
+# mix_func(23, 45, 56, 5456, 234, 567, c = 23, b = 10, d = 56)
+
+# def test(p, q, *r):
+#     print(p)
+#     print(r)
+#     print(q)
+
+# test("jaipur", "alwar", "delhi", "mumbai", "pune")
+
