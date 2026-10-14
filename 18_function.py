@@ -405,3 +405,248 @@
 
 # test("jaipur", "alwar", "delhi", "mumbai", "pune")
 
+# **kwargs (Keyword Arguments)
+
+# The **kwargs syntax allows a function to accept a variable number of keyword arguments.
+# These are bundled into a dictionary inside the function.
+
+# Example:
+
+# def test( a, b, c, d, e ):
+#     print(a, b, c, d, e)
+
+# test( a= 1, b= 2, c =3, d=4, e = 5, f = 6 )
+
+# def show_profile(**user_info):
+#     print(user_info)
+
+# show_profile(name="Grace", age=28, city="London", mob= 222)
+# show_profile( a = 1, b = 2, c = 3, d = 4, e = 5 )
+
+# def test( *a, **b ):
+#     print(a, b)
+
+# test( 34, 34, 23, 23,45 ,23 , a = "23", b = 43 )
+
+#   scope of variable in function
+
+# a = 23 
+# def test():
+#     print(a)
+# test()
+
+# def test():
+#     a = 23
+#     b = 234
+# test()
+# print(a, b)
+
+# a = 20
+# print(a)
+
+# def test():
+#     a = 34
+#     print(a)
+
+# test()
+# print(a)
+
+# a = 20 
+# b = 20
+# print(a, b)
+
+# def test():
+#     global a, b
+#     a = 34
+#     b = 23
+# test()
+# print(a, b)
+
+# using seq data type with function 
+
+# a = [1, 3, 4]
+# b  = a
+
+# a = [1, 2]
+
+# def test( data ):
+#     data.append(7)
+#     print(data)
+
+# test( a )
+# print( a )
+
+# a = [1, 2 ]
+
+# def test(data):
+#     data.append(7)
+#     print(data)
+
+# test(a.copy())
+# print(a)
+
+# the return statement
+
+# a = [1, 2, 3, 4, 5, 6]
+# b = a.reverse()
+# print(a, b)
+
+# def add(a, b):
+#     print(a + b)
+# data = add(5, 5)
+# print(data)
+
+
+# a = input("enter something: ")
+# print(a)
+
+# So far, Our functions have only printed results to the console. To get a value back from a function
+# so you can use it later in your program, you use the return keyword.
+# When a return statement is executed, the function immediately stops, and the value specified after return
+# is sent back to where the function was called.
+
+# example
+
+# def square(number):
+#     print(number * number)
+# square(6)
+
+# a = "hello"
+# print(a.upper())
+# print(a)
+
+# def square( number ):
+#     print(number * number)
+
+# a = square(6)
+# print(a)
+
+# def square(number):
+#     return number * number
+
+# a = square(5)
+# print(a)
+
+# def my_func():
+#     print("hello")
+
+# a = my_func()
+# print(a)
+
+# def post():
+#     return "nikku"
+
+# a = post()
+# print(a)
+
+# a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+# print(a.reverse())
+# print(a.pop())
+# print(a)
+
+# def test( number1, number2 ):
+#     print(f"sum of numbers are {number1 + number2}")
+#     return number2 + number1
+#     print(f"mul of numbers are {number1 * number2}")
+#     print(f"div of numbers are {number1 / number2}")
+
+# print(test(7, 3))
+
+# def test(number1, number2, op="*"):
+#     if op == "*":
+#         return number1 * number2
+#     elif op == "+":
+#         return number2 + number1
+#     elif op == "/":
+#         return number2 / number1
+
+# output = test(7, 3, "+")
+# print(output)
+
+# def test():
+#     while True:
+#         return 0
+    
+# print(test())
+
+# def divide_checker(number):
+#     for x in range(2, number):
+#         if number % x == 0:
+#             return True
+#     return False
+
+# print(divide_checker(36))
+
+# Using return:  Write a function that takes a list of integers and returns the count of odd numbers
+#  present in the list.
+
+# def odd_counter(a):
+#     temp = 0
+#     for x in a:
+#        if x % 2 != 0:
+#           temp += 1
+#     return temp
+    
+# odd = odd_counter([ 2, 1, 4, 23, 54, 213, 54, 234, 3456, 3456, 2345 ])
+# print(odd)
+
+# Using return: Write a function that takes a list of integers and
+# returns a list containing all the numbers divisible by 5.
+
+# def div_5_sep(a):
+
+#     data = []
+#     for x in a:
+#        if x % 5 == 0:
+#           data.append(x)
+#     return data
+
+# all_5_divider = div_5_sep( [5, 19, 30, 68, 65, 80, 89, 78, 50, 5, 23, 4, 54 , 45])
+# print(all_5_divider)
+
+# Write a function that takes two lists and returns a list of common elements between them.
+
+# def comman(a, b):
+#     data = []
+
+#     for x in b:
+#         if x in a:
+#           data.append(x)
+#     return data
+
+# data = comman([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [8, 9, 10, 11, 1, 13, 14, 15])
+# print(data)
+
+# Using return: Write a function that takes a list of integers and returns 
+# a list containing only the prime numbers from the list.
+
+# a = [ 7, 8, 9, 45, 33, 23, 77, 54, 90 ]
+
+# def prime(num):
+#     for x in range(2, num):
+#         if num % x == 0:
+#            return False
+#     return True
+
+# data = []
+# for x in a:
+#     if prime(x):
+#         data.append(x)
+
+# print(data)
+
+# a = [ 7, 8, 9, 45, 33, 23, 77, 54, 90 ]
+
+# def fact(num):
+#     mul = 1
+#     for x in range(1, num + 1):
+#         mul = mul * x
+#     return mul
+
+# data = []
+
+# for x in a:
+#     data.append(fact(x))
+
+# print(data)
+
