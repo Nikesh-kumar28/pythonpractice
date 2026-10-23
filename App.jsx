@@ -1,27 +1,53 @@
 // import {userState} from "react"
 // import Count from "./components/Count"
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { BrowserRouter, createBrowserRouter, Route, RouterProvider, Routes } from "react-router-dom"
 import Navbar from "./components/Navbar"
 import About from "./components/Pages/About"
 import Home from "./components/Pages/Home"
+import Contact from "./components/Pages/Contact"
+import Layout from "./components/Layout"
+import Notfound from "./components/Pages/Notfound"
 
 function App() {
+  let routes = createBrowserRouter([
+    {
+      path: "/",
+      element: <Layout />,
+      children: [
+        {
+          path: "/home",
+          element: <Home />
+        },
+        {
+          path: "/about",
+          element: <About />
+        },
+        {
+          path: "/contact",
+          element: <Contact />
+        },
+        {
+          path: "*",
+          element: <Notfound />
+        }
+      ]
+    },
+  ])
   return (
     <>
-      <Navbar />
-      <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
-      </BrowserRouter>
-
+      <RouterProvider router={routes} />
+      {/* <Navbar /> */}
+      {/* <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact/>} />
+        </Routes> */}
 
       {/* <p className="text-4xl bg-[#5A3397] text-white p-10 text-center font-semibold ">
         Hello world!
       </p>
       <Count /> */}
-           
+
       {/* <About/> */}
       {/* 
       <div className="grid sm:grid-cols-12 md:grid-cols-4 lg:grid-cols-6 grid-rows-4 bg-gray-300">
