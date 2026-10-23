@@ -148,5 +148,118 @@
 #         words += len(x.split())
 #         print(words)
 
-# count the total number of lines present in a text file.
+# Read a text file and count the total number of vowels in it?
+# vowels = 0
+# with open("abcd.text") as a:
+#     data = a.read()
+#     for x in data:
+#         if x in "aeiouAEIOU":
+#             vowels += 1
+# print(vowels)
+
+# Count the total number of words in a file?
+# words = 0
+# with open("abcd.text") as a:
+#     data = a.readlines()
+#     for x in data:
+#         words += len(x.split())
+#         print(words)
+
+# Count the total number of lines present in a text file?
+# with open("sample.text") as fobj:
+    # print(fobj.read().count("\n"))
+    # print(len(fobj.readlines()))
+
+# Display only the lines in a file that contain the word "India"?
+# with open("sample.text") as a:
+#     all_lines = a.readlines()
+#     for x in all_lines:
+#         if  "India" in x:
+#             print(x)
+
+# Find the longest line in a text file?
+# with open("sample.text") as a:
+#     all_lines = a.readlines()
+#     for x in all_lines:
+#         print(len(x))
+
+# with open("sample.text") as a:
+#     all_lines = a.readlines()
+
+#     largest_line = all_lines[0]
+#     largest_line_len = len(all_lines[0])
+
+#     for x in all_lines[1:]:
+#         len(x) > largest_line_len
+#         largest_line = x
+#         largest_line_len = len(x)
+# print(largest_line, largest_line_len) 
+
+# Take a word from the user and count how many times that word appears across an entire file?
+# with open("sample.text") as a:
+#     content = a.read()
+#     data = input("enter what you want to find: ")
+#     print(content.count(data))
+
+# Take 5 words from the user and count how many times each word appears across an entire file?
+# with open("sample.text") as a:
+#     content = a.read()
+#     data = input("enter what you want to find: ")
+#     data = input("enter what you want to find: ")
+#     data = input("enter what you want to find: ")
+#     data = input("enter what you want to find: ")
+#     data = input("enter what you want to find: ")
+   
+#     print(content.count(data))
+#     print(content.count(data))
+#     print(content.count(data))
+#     print(content.count(data))
+#     print(content.count(data))
+
+# Copy non-blank lines from a source file into a clean list of data?
+# with open("sample.text") as a:
+#     all_lines = a.readlines()
+#     for x in all_lines:
+#         if x != "\n":
+#             print(x)
+
+# Count the total number of blank lines in a text file?
+# with open("sample.text") as a:
+#     all_lines = a.readlines()
+#     counter = 0
+#     for x in all_lines:
+#         if x == "\n":
+#             counter += 1
+
+# print(counter)
+
+# Find and display the shortest non-blank line in a text file?
+
+# with open("sample.text") as a:
+#     all_lines = a.readline()
+
+#     shortest_line = all_lines[0]
+#     shortest_line_len = len(all_lines[0])
+
+#     for x in all_lines[1:]:
+#         len(x) < shortest_line_len
+#         shortest_line = x
+#         shortest_line_len = len(x)
+# print(shortest_line, shortest_line_len) 
+
+# how to copy a file    
+# with open("sample.text") as a:
+#     file_content = a.read()
+
+# with open("new.txt", "w") as a:
+#     a.write(file_content)
+
+# with open("sample.text") as a:
+#     file_content = a.readlines()
+
+#     with open("new.txt", "w") as b:
+#        i = 0
+#        while i < len(file_content):
+#         b.write(f"Line {i+1}: {file_content[i]}")
+#         i += 1
 

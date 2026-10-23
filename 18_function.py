@@ -649,4 +649,3 @@
 #     data.append(fact(x))
 
 # print(data)
-

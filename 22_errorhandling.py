@@ -150,5 +150,4 @@
 # if age > 18:
 #     print("yes you can vote")
 # else:
-#     raise ValueError("no you can not vote")
-
+#     raise ValueError("no you can not vote"
