@@ -7,6 +7,7 @@ import Home from "./components/Pages/Home"
 import Contact from "./components/Pages/Contact"
 import Layout from "./components/Layout"
 import Notfound from "./components/Pages/Notfound"
+import Userinfo from "./components/Pages/Userinfo"
 
 function App() {
   let routes = createBrowserRouter([
@@ -25,6 +26,10 @@ function App() {
         {
           path: "/contact",
           element: <Contact />
+        },
+        {
+          path: "/user:user_Id",
+          element:<Userinfo />
         },
         {
           path: "*",

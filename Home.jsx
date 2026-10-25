@@ -1,3 +1,5 @@
+import Users from "./Users"
+
 function Home() {
     return (
         <div
@@ -6,10 +8,12 @@ function Home() {
                 backgroundColor: "green",
                 display: "flex",
                 justifyContent: "center",
+                flexDirection:"column",
                 alignItems: "center"
             }}
         >
             <h1 style={{ textAlign: "center", fontWeight: 900 }}>this is a home component</h1>
+            <Users />
         </div>
     )
 }
