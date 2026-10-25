@@ -31,7 +31,8 @@ function Users() {
     ];
     const handleUserClick = (user) => {
         console.log("user in handleUserClick", user)
-        navigate(`/user:${user.id}`)
+        // navigate(`/user/${user.id}`)
+        navigate(`/user/1`, {state:user})
     }
     return (
         <div
