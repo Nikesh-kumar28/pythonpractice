@@ -67,7 +67,57 @@
 # print(facebook.CEO)
 # facebook.like()
 
+# class SocialMedia:
+
+#     CEO = "Mark"
+
+#     def like(self):
+#         print("liked")
+
+#     def comment(self):
+#         print("liked")
+
+# a = SocialMedia()
+# b = SocialMedia()
+# c = SocialMedia()
+# d = SocialMedia()
+# e = [a, b, c, d]
+
+# facebook = SocialMedia()
+
+# print(facebook.CEO)
+# facebook.like()
+
 # a = [23, 34, 45, 65, 657]
 # a.reverse()
 # print(a)
 
+# class SocialMedia:
+
+#     CEO = "Mark"
+
+#     def  like(self):
+#         print("liked")
+
+#     def comment(self):
+#         print("commented")
+
+#     def post(self):
+#         print("Posted")
+
+# facebook = SocialMedia()
+# twitter = SocialMedia()
+# LinkedIn = SocialMedia()
+
+# print(facebook.CEO)
+# print(twitter.CEO)
+# print(LinkedIn.CEO)
+
+# twitter.CEO = "Elon Mask"
+# LinkedIn.CEO = "Ryan"
+
+# print(facebook.CEO)
+# print(twitter.CEO)
+# print(LinkedIn.CEO)
+
+ 
