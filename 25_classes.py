@@ -345,3 +345,6 @@
 # a.eat()
 # a.bark()
 
+# Constructor with Argument
+
+class 
